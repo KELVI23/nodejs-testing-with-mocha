@@ -12,12 +12,12 @@ describe("Color code converter API", function(){
             });
         });
 
-        it("returns status 500", function(done){
-            request(url, function(error, response, body){
-                expect(response.statusCode).to.equal(500);
-                done();
-            });
-        });
+//         it("returns status 500", function(done){
+//             request(url, function(error, response, body){
+//                 expect(response.statusCode).to.equal(500);
+//                 done();
+//             });
+//         });
       
         it("returns the color in HEX", function(done){
             request(url, function(error, response, body) {
